@@ -13,7 +13,6 @@
         *{
             font-family: "Outfit";
             box-sizing: border-box;
-            transition: all ease-in 0.8s;
         }
         body{
             background: linear-gradient(270deg, #232323 0%, #141414 100%);
@@ -21,13 +20,15 @@
         #resume{
             box-shadow: 0px 4px 0px 0px #4B2C2C;
         }
+
         #resume:active{
             transform: translate(0px, 4px);
             transition: 0s;
             box-shadow:none;
         }
+
         #center-component{
-            animation: fade-in 1.5s linear;
+            animation: fade-in 2s linear;
         }
 
         @keyframes fade-in {
@@ -56,10 +57,10 @@
 
         <main class="">
             <div id="center-component" class="flex flex-col justify-center items-center mt-20">
-                <img class="w-1/4 rounded-full" src="img/juri.jpg" alt="Juri">
-                <h1 class="text-2xl uppercase font-black text-[#9DA1F7]">Juri Turiano</h1>
-                <h2 class="text-3xl py-0.5">Front End Developer</h2>
-                <a class="bg-[#D98787]  mt-7 rounded py-2 px-10 my-0" id="resume" href="">My Resume</a>
+                <img id="a" class="w-1/4 rounded-full" src="img/juri.jpg" alt="Juri">
+                <h1 id="b"  class="text-2xl uppercase font-black text-[#9DA1F7]">Juri Turiano</h1>
+                <h2 id="c"  class="text-3xl py-0.5">Front End Developer</h2>
+                <a id="d"  class="bg-[#D98787]  mt-7 rounded py-2 px-10" id="resume" href="">My Resume</a>
             </div>
 
             <section class=" flex flex-col">
