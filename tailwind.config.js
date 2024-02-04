@@ -14,7 +14,9 @@ module.exports = {
       '4xl': '2.441rem',
       '5xl': '3.052rem',
     },
-   
+    boxShadow: {
+      'shadow': '0 3px 10px 0px #4B2C2C',
+    },
     extend: {},
   },
   plugins: [],
